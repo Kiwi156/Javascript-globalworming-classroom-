@@ -61,6 +61,9 @@ console.log(typeof agile) // number
         ]
         types.forEach(entry => {
             document.getElementById(typeof entry).textContent = '✅'
+            document.getElementById(typeof true).textContent = '✅'
+            document.getElementById(typeof 99.9).textContent = '✅'
+            document.getElementById(typeof object).textContent = '✅'
         })
     };
 
